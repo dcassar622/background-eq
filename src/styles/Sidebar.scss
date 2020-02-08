@@ -1,0 +1,15 @@
+@import "./global/mixins.scss";
+@import "./global/variables.scss";
+
+/* ---------- SIDEBAR ---------- */
+
+.sidebar-main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background: $secondary-color;
+  width: 10vw;
+  height: 100vh;
+}

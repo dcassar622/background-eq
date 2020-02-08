@@ -1,0 +1,15 @@
+@import "./global/mixins.scss";
+@import "./global/variables.scss";
+
+/* ---------- HEADER ---------- */
+
+.header-main {
+  @include flexCenter(row);
+  height: 50px;
+  background: coral;
+  width: 100vw;
+}
+
+.header-title {
+  margin-left: 10vw;
+}

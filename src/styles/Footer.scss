@@ -1,0 +1,20 @@
+@import "./global/mixins.scss";
+@import "./global/variables.scss";
+
+/* ---------- FOOTER ---------- */
+
+.footer-main {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  background: $primary-color;
+  width: 100vw;
+  z-index: -1;
+  height: 50px;
+}
+
+.footer-title {
+  margin-left: 10vw;
+}
